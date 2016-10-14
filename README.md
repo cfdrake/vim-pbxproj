@@ -1,5 +1,7 @@
 # vim-pbxproj
 
+![](https://github.com/cfdrake/vim-pbxproj/raw/master/assets/vim-pbxproj.png)
+
 Stuck merging an Xcode `*.pbxproj` file?
 
 `vim-pbxproj` is here to make your life easier by providing a base level of syntax highlighting for Xcode project files.
