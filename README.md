@@ -8,6 +8,10 @@ Stuck merging an Xcode `*.pbxproj` file?
 
 ## Usage
 
+To install using Plug:
+
+    Plug 'cfdrake/vim-pbxproj'
+
 To install using NeoBundle:
 
     NeoBundle 'cfdrake/vim-pbxproj'
