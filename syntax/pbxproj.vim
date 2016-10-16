@@ -26,8 +26,8 @@ syntax keyword pbxprojKeyword buildConfigurations defaultConfigurationIsVisible 
 " Undocumented keywords
 syntax keyword pbxprojKeyword path buildRules attributes lastKnownFileType fileEncoding explicitFileType
 
-" Constants
-syntax keyword pbxprojConstant YES NO
+" Constants, etc.
+syntax keyword pbxprojBool YES NO
 syntax keyword pbxprojConstant PBXAggregateTarget PBXBuildFile PBXContainerItemProxy PBXCopyFilesBuildPhase PBXFileReference PBXFrameworksBuildPhase PBXGroup PBXHeadersBuildPhase
 syntax keyword pbxprojConstant PBXNativeTarget PBXProject PBXResourcesBuildPhase PBXShellScriptBuildPhase PBXSourcesBuildPhase PBXTargetDependency PBXVariantGroup  XCBuildConfiguration XCConfigurationList 
 
@@ -47,6 +47,7 @@ syntax region pbxprojString start=/\v"/ skip=/\v\\./ end=/\v"/
 highlight link pbxprojKeyword Keyword
 highlight link pbxprojNumber Number
 highlight link pbxprojConstant Constant
+highlight link pbxprojBool Boolean
 highlight link pbxprojOperator Operator
 highlight link pbxprojOneLineComment Comment
 highlight link pbxprojMultiLineComment Comment
